@@ -33,7 +33,7 @@ CREATE TABLE afei.tb_config (
   UNIQUE KEY uk_key (`key`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
-insert into tb_config(id, `key`,`value`)values(1, 'blog', '公众号：阿飞的博客');
+insert into afei.tb_config(id, `key`,`value`)values(1, 'blog', '公众号：阿飞的博客');
 
 create database pay_taobao;
 CREATE TABLE pay_taobao.tb_order (
